@@ -2,6 +2,7 @@ apiVersion: carto.run/v1alpha1
 kind: Deliverable
 metadata:
   name: weatherforecast-steeltoe
+  namespace: mae
   labels:
     app.kubernetes.io/part-of: weatherforecast-steeltoe
     apps.tanzu.vmware.com/has-tests: "true"
